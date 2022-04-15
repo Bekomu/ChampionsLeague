@@ -81,7 +81,7 @@ namespace ChampionsLeague
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            if (btnAdd.Text == "Add Team")
+            if (btnAddTeam.Text == "Add Team")
             {
                 if (!string.IsNullOrEmpty(txtTeamName.Text) && chklstColors.CheckedItems.Count > 0)
                 {
@@ -102,7 +102,7 @@ namespace ChampionsLeague
                     MessageBox.Show("You should enter Team Name and check one color at least.");
                 }
             }
-            if (btnAdd.Text == "Save Team")
+            if (btnAddTeam.Text == "Save Team")
             {
                 if (!string.IsNullOrEmpty(txtTeamName.Text) && chklstColors.CheckedItems.Count > 0)
                 {
@@ -121,7 +121,7 @@ namespace ChampionsLeague
                     lstTeams.Enabled = true;
                     groupBox1.Text = "Add Team";
                     groupBox1.BackColor = System.Drawing.Color.Transparent;
-                    btnAdd.Text = "Add Team";
+                    btnAddTeam.Text = "Add Team";
                     btnDelete.Enabled = true;
                     btnPlayers.Enabled = true;
                 }
@@ -183,7 +183,7 @@ namespace ChampionsLeague
             txtTeamName.Text = selectedTeam.TeamName;
             groupBox1.Text = "Edit Team";
             groupBox1.BackColor = System.Drawing.Color.Aqua;
-            btnAdd.Text = "Save Team";
+            btnAddTeam.Text = "Save Team";
             btnDelete.Enabled = false;
             btnPlayers.Enabled = false;
         }

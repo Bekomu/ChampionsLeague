@@ -31,7 +31,7 @@
             this.lstTeams = new System.Windows.Forms.ListBox();
             this.lblTeams = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.btnAdd = new System.Windows.Forms.Button();
+            this.btnAddTeam = new System.Windows.Forms.Button();
             this.chklstColors = new System.Windows.Forms.CheckedListBox();
             this.label1 = new System.Windows.Forms.Label();
             this.txtTeamName = new System.Windows.Forms.TextBox();
@@ -73,7 +73,7 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.btnAdd);
+            this.groupBox1.Controls.Add(this.btnAddTeam);
             this.groupBox1.Controls.Add(this.chklstColors);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.txtTeamName);
@@ -84,15 +84,15 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Add Teams";
             // 
-            // btnAdd
+            // btnAddTeam
             // 
-            this.btnAdd.Location = new System.Drawing.Point(13, 234);
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(194, 30);
-            this.btnAdd.TabIndex = 9;
-            this.btnAdd.Text = "Add Team";
-            this.btnAdd.UseVisualStyleBackColor = true;
-            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
+            this.btnAddTeam.Location = new System.Drawing.Point(13, 234);
+            this.btnAddTeam.Name = "btnAddTeam";
+            this.btnAddTeam.Size = new System.Drawing.Size(194, 30);
+            this.btnAddTeam.TabIndex = 9;
+            this.btnAddTeam.Text = "Add Team";
+            this.btnAddTeam.UseVisualStyleBackColor = true;
+            this.btnAddTeam.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // chklstColors
             // 
@@ -245,7 +245,7 @@
         private System.Windows.Forms.ListBox lstTeams;
         private System.Windows.Forms.Label lblTeams;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button btnAdd;
+        private System.Windows.Forms.Button btnAddTeam;
         private System.Windows.Forms.CheckedListBox chklstColors;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtTeamName;

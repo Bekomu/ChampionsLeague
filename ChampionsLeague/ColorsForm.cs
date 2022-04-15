@@ -171,6 +171,7 @@ namespace ChampionsLeague
                 lblGreen.Text = tbarGreen.Value.ToString();
                 tbarBlue.Value = selectedColor.Blue;
                 lblBlue.Text = tbarBlue.Value.ToString();
+                pboColorPreview();
             }
         }
     }
