@@ -8,11 +8,13 @@ You can see played matches and matches which will play.
 ![main_screen](https://i.hizliresim.com/m807soc.png)
 ----
 
+
 ### Colors Screen
 You can create colors in this screen.
 
 ![colors_screen](https://i.hizliresim.com/59xbx7m.png)
 ----
+
 
 ### Teams Screen
 You can add teams and edit in this screen. Also see 5 of colors of selected team. 
@@ -25,11 +27,13 @@ If you want to arrange players of team, you should open Team Players screen with
 ![teams_players_screen](https://i.hizliresim.com/echoztq.png)
 ----
 
+
 ### Players Screen
 You can add players and edit in this screen. 
 
 ![players_screen](https://i.hizliresim.com/1aqzdqa.png)
 ----
+
 
 ### Match Screen
 You can create or edit matches in this screen.
@@ -43,6 +47,7 @@ Editing:
 ![match_editing_screen](https://i.hizliresim.com/felivlm.png)
 
 ----
+
 
 ##### Code Sample
 
