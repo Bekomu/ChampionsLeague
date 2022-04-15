@@ -12,7 +12,7 @@ You can see played matches and matches which will play.
 ### Colors Screen
 You can create colors in this screen.
 
-![colors_screen](https://i.hizliresim.com/59xbx7m.png)
+![colors_screen](https://i.hizliresim.com/4if5l38.png)
 ----
 
 
