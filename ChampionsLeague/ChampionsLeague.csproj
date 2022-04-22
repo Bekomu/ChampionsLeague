@@ -112,6 +112,10 @@
     <Compile Include="Migrations\202204131849034_sixth.designer.cs">
       <DependentUpon>202204131849034_sixth.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202204182019261_seventh.cs" />
+    <Compile Include="Migrations\202204182019261_seventh.designer.cs">
+      <DependentUpon>202204182019261_seventh.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Color.cs" />
     <Compile Include="Models\ChampionsDbContext.cs" />
@@ -168,6 +172,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202204131849034_sixth.resx">
       <DependentUpon>202204131849034_sixth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202204182019261_seventh.resx">
+      <DependentUpon>202204182019261_seventh.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NewMatchForm.resx">
       <DependentUpon>NewMatchForm.cs</DependentUpon>

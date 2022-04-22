@@ -56,7 +56,7 @@
             // 
             this.lstTeams.FormattingEnabled = true;
             this.lstTeams.ItemHeight = 17;
-            this.lstTeams.Location = new System.Drawing.Point(264, 52);
+            this.lstTeams.Location = new System.Drawing.Point(264, 43);
             this.lstTeams.Name = "lstTeams";
             this.lstTeams.Size = new System.Drawing.Size(200, 242);
             this.lstTeams.TabIndex = 0;

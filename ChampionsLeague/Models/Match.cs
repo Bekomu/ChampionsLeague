@@ -28,26 +28,28 @@ namespace ChampionsLeague.Models
 
         public int? Score2 { get; set; }
 
-        private Result _result;
-
         public Result Result
         {
-            get { return _result; }
-            set
+            get
             {
+                if (Score1 == null || Score2 == null)
+                {
+                    return Result.NotPlayed;
+                }
                 if (Score1 > Score2)
                 {
-                    value = Result.Team1Won;
+                    return Result.Team1Won;
                 }
                 if (Score2 > Score1)
                 {
-                    value = Result.Team2Won;
+                    return Result.Team2Won;
                 }
+                
                 else
                 {
-                    value = Result.Draw;
+                    return Result.Draw;
                 }
-                _result = value;
+                
             }
         }
 

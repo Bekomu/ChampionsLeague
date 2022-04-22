@@ -10,6 +10,7 @@ namespace ChampionsLeague.Models
     {
         Draw = 0, 
         Team1Won = 1, 
-        Team2Won = 2
+        Team2Won = 2,
+        NotPlayed = 3
     }
 }
