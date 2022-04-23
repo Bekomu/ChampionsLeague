@@ -1,6 +1,6 @@
 ## Soccer / Football League Table App
 This is the .Net Framework(C#) Windows Forms App which you can create teams, team colors, players and played/unplayed matches. 
-Also it creates database and tables with code. You should just change connection strings for your database.
+Also it creates database and tables with Entity Framework Code First. You should just change connection strings for your database.
 
 ### Main Screen
 You can see played matches and matches which will play.
